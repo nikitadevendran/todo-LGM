@@ -1,0 +1,83 @@
+body{
+  background-image: url('https://wallpaperforu.com/wp-content/uploads/2020/07/marble-wallpaper-200714140305221920x1080.jpg');
+}
+.Todolist {
+  display:flex;
+  flex-direction:row;
+  justify-content:center;
+  align-items:flex-start;
+  width:120rem;
+  border:ipx solid darkblue;
+  min-height: 40rem;
+  background-color :azure;
+  margin-top:12rem;
+  border-radius: 5rem;
+}
+.todo-form{
+
+  display:flex;
+  width:100%;
+  font-size:3rem;
+  margin-top:3rem;
+  gap:2rem;
+}
+.todo-form input{
+  border:1px solid black;
+  font-size: 2rem;
+  border-radius: 1rem;
+  padding:1rem;
+  margin:2rem;
+  
+}
+
+
+.todo-form button{
+  border:3px solid darkblue;
+  border-radius: 3rem;
+  background-color: cadetblue;
+  padding:1rem;
+  cursor:pointer;
+  font-size:2rem;
+
+}
+
+.todo-form button:hover{
+  background-color: darkcyan;
+  color: white;
+  font-weight:444;
+
+}
+
+.task-div{
+  background-color: palevioletred;
+  padding: 2rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin:2rem;
+  border-radius: 1rem;
+  box-shadow: 0.5rem 0.5rem 1rem black;
+}
+
+.todo-text{
+  font-size:2.5rem;
+
+}
+
+.icons{
+  font-size: 2.5rem;
+  display: flex;
+  gap:3rem;
+  cursor:pointer;
+}
+
+.complete{
+  text-decoration: line-through;
+  opacity: 1;
+  background-color: green;
+
+}
+
+.hide{
+  display:none;
+}
